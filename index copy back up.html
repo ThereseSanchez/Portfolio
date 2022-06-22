@@ -1,0 +1,190 @@
+<! - - - index html - - - >
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Personal Portfolio Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="hero">
+<nav>
+<img src="logoportfolioNoBG.png" width="200px" height="200px" class="logo">
+<ul>
+<li><a href="#"> HOME </a></li>
+<li><a href="#"> ABOUT </a></li>
+<li><a href="#"> PORTFOLIO </a></li>
+<li><a href="#"> CONTACT </a></li>
+</ul>
+</nav>
+<div class="detel">
+<h1> I'm Sanchez, <span> Therese </span></h1>
+<p> This is my official portfolio website <br> to show my journey in Ramon Teves Pastor Memorial High School, <br> Information and Communications Technology 8
+</p>  
+</div>
+<div class="images">
+<img src="" class="shape">
+<img src="shapeNoBG.png" class="shape">
+<img src="meICT.png" class="girl">
+</div>
+
+ <! - - - - About Section - - - - >
+ <section class="about">
+ <div class="main">
+ <img src="ictMe.png">
+ <div class="about-text">
+ <h2> About Me </h2>
+ <h5> Eighth Grade <span> Student </span></h5>
+ <p> I am a </p>
+ </div>
+ </section>
+ 
+  <! - - - - Portfolio Section - - - - >
+  <div class="portfolio">
+  <div class="title">
+  <h2> My Portfolio </h2>
+  </div>
+  
+  <div class="box".
+  <div class="card">
+  <i class="fas fa-bars">
+  </div>
+</body>
+</html> 
+
+
+<! - - - -styles . css - - - >
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.hero{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #eff4fd; 
+}
+
+nav{
+	display: flex;
+	width: 84%;
+	margin: auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	color: blue; 
+}
+
+.detel{
+	margin-left: 8%;
+	margin-top: 13%;
+	margin-bottom: 12%;
+}
+
+.detel h1{
+	font-size: 50px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+
+span{
+	color: blue;
+}
+
+.detel p{
+	color: #555;
+	line-height: 22px;
+}
+
+.images{
+	width: 45%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+} 
+
+.images img{
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	transition: bottom 1s, left 1s;
+} 
+
+.images:hover .shape{
+	bottom: 40px; 
+}
+
+.images:hover .girl{
+	left: 45%; 
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: white;
+}
+
+.about img{
+	height: auto;
+	width: 430px;
+}
+
+.about-text{
+	width: 550px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h2{
+	color: blue;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.about-text h5{
+	color: gold;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.about-text p{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
